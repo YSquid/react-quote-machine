@@ -47,7 +47,7 @@ function App() {
             <h1 style={{color: color}}>"{randomQuote && randomQuote.text}"</h1>
             </div>
             <div id="quote-author">
-            <h3 id="quote-author" style={{color: color}}>- {randomQuote && randomQuote.author}</h3>
+            <h3 id="quote-author" style={{color: color}}>-{randomQuote && randomQuote.author}</h3>
             </div>
           </div>
           <div id="quote-footer" className="card-footer">

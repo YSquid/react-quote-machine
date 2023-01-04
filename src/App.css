@@ -14,6 +14,7 @@
   width: 50vw;
   display: flex;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 #quote {
@@ -38,5 +39,38 @@
 #quote-footer {
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
+}
+
+#tweet {
+  background-color: #1DA1F2;
+  border: none;
+}
+
+@media only screen and (max-width: 400px) {
+  #quote-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #quote-text h1 {
+    font-size: 1.2rem;
+  }
+
+  #quote-author h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 5rem;
+    margin: 1rem 0;
+  }
+
+  #new-quote {
+    margin: 0;
+  }
+
 }
