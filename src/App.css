@@ -20,16 +20,19 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 1rem;
 }
 
 #quote-text {
   text-align: center;
   width: 100%;
+  padding: 0.5rem;
 }
 
 #quote-author {
   width: 100%;
   text-align: end;
+  padding: 0.5rem;
 }
 
 #quote-footer {
