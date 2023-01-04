@@ -1,0 +1,40 @@
+.App {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+#new-quote {
+  margin-right: 1rem;
+}
+
+#quote-box {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+}
+
+#quote {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote-text {
+  text-align: center;
+  width: 100%;
+}
+
+#quote-author {
+  width: 100%;
+  text-align: end;
+}
+
+#quote-footer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
